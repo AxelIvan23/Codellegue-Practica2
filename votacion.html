@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>! Vota ahora ¡</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+	<!-- FONT AWESOME -->
+
+	<script src="https://kit.fontawesome.com/dcaedfb6eb.js" crossorigin="anonymous"></script>
+
+	<style type="text/css">
+		p {
+			color: white;
+		}
+		h1 {
+		  font-size: 52px;
+		  background: linear-gradient(to right, #01148a 0%, #00ffa2 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+		}
+	</style>
+
+</head>
+<body style="background: url(img/fondo1.jpg); background-size: cover;">
+	<nav class="nav-bar bg-primary py-5">
+		<img src="" class="position-absolute">
+		<h1 class="text-center p-0 m-0">VoteQuest XVIII</h1>
+	</nav>
+	<div class="container mt-4">
+
+
+			<div class="d-none" id="toggle2">
+				<p class="h1 mr-5" id="question">Soy el mejor?</p>
+				<button class="btn btn-success" id="btntoggle2">Personalizar</button>
+			</div>
+			<div class="row" id="toggle1">
+				<p class="h1 mr-3">Ask: </p>
+				<input type="" name="" class="form-control mr-5 col-6" id="ask">
+				<button class="btn btn-success col-3" id="btntoggle1">Aceptar</button>
+			</div>
+
+
+		<div class="my-5">
+			<p class="h1">Votos Registrados: <span id="vote_count"></span></p>
+			<p id="vote_count2"></p>
+		</div>
+
+		<div class="d-flex justify-content my-5">
+			<button class="mr-4 btn btn-info" id="btnFav">A Favor</button>
+			<button class="mr-4 btn btn-info" id="btnContr">En contra</button>
+			<button class="mr-4 btn btn-info" id="btnAbt">Abstencion</button>
+		</div>
+
+		<div class="row">
+			<empty class="col-2"></empty>
+			<button class="col-8 btn btn-light text-primary" id="GO">Cerrar votación!!!</button>
+			<empty class="col-2"></empty>
+		</div>
+	</div>
+
+	<div class="container" id="alert">
+		
+	</div>
+<!-- CODIGOS DE BOOTSTRAP -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<!-- CODIGOS PRACTICA -->
+	<script type="text/javascript" src="js/votos.class.js"></script>
+	<script type="text/javascript" src="js/conteo.js"></script>
+</body>
+</html>
